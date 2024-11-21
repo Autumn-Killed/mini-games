@@ -1,0 +1,35 @@
+h1 {
+    text-decoration: none;
+    text-align: center;
+    color: darkorange;
+    margin: 20px;
+  }
+  
+  body {
+    background-color: black;
+    background-image: url(images/wood-1759566_640.jpg);
+    display: flex;
+  }
+  
+  body > div {
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+  }
+  
+  .ghost-wrapper {
+    height: 100px;
+  }
+  
+  img {
+    height: 100px;
+  }
+  
+  .ghost {
+    opacity: 0.3;
+  }
+  
+  .hide {
+    display: none;
+  }
+  

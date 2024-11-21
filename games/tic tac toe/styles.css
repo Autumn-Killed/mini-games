@@ -1,0 +1,46 @@
+h1 {
+  text-decoration: none;
+}
+
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: grid;
+  place-items: center;
+}
+
+.square {
+  width: 150px;
+  height: 150px;
+  background-color: lightpink;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 150px;
+  text-align: center;
+}
+
+.square:hover {
+  background-color: palevioletred;
+  cursor: pointer;
+}
+
+.row {
+  display: flex;
+}
+
+/**border color**/
+.bleft {
+  border-left: 2px black solid;
+}
+
+.bright {
+  border-right: 2px black solid;
+}
+
+.btop {
+  border-top: 2px black solid;
+}
+
+.bbottom {
+  border-bottom: 2px black solid;
+}

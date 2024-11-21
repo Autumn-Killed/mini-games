@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>HTML + CSS</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <h1>Jump Scare</h1>
+
+    <div>
+      <div class="ghost-wrapper">
+        <img id="ghost1" class="ghost hide" src="images/ghost.png" />
+      </div>
+      <img
+        id="box1"
+        src="images/box.png"
+        onmouseover="hoverBox(1)"
+        onmouseout="reset()"
+      />
+    </div>
+    <div>
+      <div class="ghost-wrapper">
+        <img id="ghost2" class="ghost hide" src="images/ghost.png" />
+      </div>
+      <img
+        id="box2"
+        src="images/box.png"
+        onmouseover="hoverBox(2)"
+        onmouseout="reset()"
+      />
+    </div>
+    <div>
+      <div class="ghost-wrapper">
+        <img id="ghost3" class="ghost hide" src="images/ghost.png" />
+      </div>
+      <img
+        id="box3 "
+        src="images/box.png"
+        onmouseover="hoverBox(3)"
+        onmouseout="reset()"
+      />
+    </div>
+
+    <script src="games.js"></script>
+  </body>
+</html>
